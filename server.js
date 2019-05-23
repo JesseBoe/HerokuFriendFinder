@@ -13,8 +13,6 @@ app.use(express.json());
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
-var PORT = process.env.port || "8080";
-
 
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
