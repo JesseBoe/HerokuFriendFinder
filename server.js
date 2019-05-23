@@ -3,7 +3,7 @@ const apiRoutes = require("./routing/apiroutes");
 const htmlRoutes = require("./routing/htmlroutes");
 var friends = require("./data/friends");
 
-var PORT = process.env.PORT || '8080'
+var PORT = process.env.PORT || '80'
 
 var app = express();
 
